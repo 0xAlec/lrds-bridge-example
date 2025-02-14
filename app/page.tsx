@@ -17,25 +17,7 @@ import {
 import { AppchainBridge } from '@coinbase/onchainkit/appchain';
 import type { Appchain, BridgeableToken } from '@coinbase/onchainkit/appchain';
 import { baseSepolia } from 'viem/chains';
-import { defineChain } from 'viem';
-
-
-// Define a custom chain using viem
-// https://viem.sh/docs/chains/introduction#custom-chains
-const LRDS_CHAIN = defineChain({
-  id: 845320008,
-  name: 'Blocklords',
-  nativeCurrency: {
-    name: 'Blocklords',
-    symbol: 'LRDS',
-    decimals: 18,
-  },
-  rpcUrls: {
-    default: {
-      http: ['https://blocklords-sepolia-rpc.l3.base.org'],
-    },
-  },
-});
+import { LRDS_CHAIN } from './chain';
 
 // Add an icon (optional)
 const appchain: Appchain = {
