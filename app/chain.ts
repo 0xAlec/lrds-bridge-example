@@ -12,7 +12,7 @@ export const LRDS_CHAIN = defineChain({
   },
   rpcUrls: {
     default: {
-      http: ['https://blocklords-sepolia-rpc.l3.base.org'],
+      http: ['https://lordchain-rpc-testnet.appchain.base.org'],
     },
   },
 });
