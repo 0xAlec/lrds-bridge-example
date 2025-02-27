@@ -23,7 +23,7 @@ import { LRDS_CHAIN } from './chain';
 const appchain: Appchain = {
   chain: LRDS_CHAIN,
   icon: (
-    <img src="https://onchainkit.xyz/favicon/48x48.png?v4-19-24" alt="LRDS" />
+    <img src="https://cdn-dynasty.blocklords.com/lordchain-web/images/icons/lord-chain-logo.png" alt="LRDS" />
   )
 }
 
